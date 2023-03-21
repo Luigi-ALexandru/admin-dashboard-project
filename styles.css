@@ -86,12 +86,26 @@
 
 .cb1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px;
     grid-auto-rows: 220px;
     gap: 8px;
     padding: 8px;
 }
 
+.lb1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
 .littlebox {
     border: 2px solid red;
+}
+
+.cb2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 250px 40px 250px;
+    gap: 8px;
+    padding: 8px;
 }
