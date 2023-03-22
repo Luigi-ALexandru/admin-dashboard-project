@@ -173,6 +173,7 @@ button:hover {
     grid-template-columns: minmax(500px, 75%) 25%;
     background-color: #c5c6d0;
     box-shadow: 0 2px 10px inset;
+    min-width: fit-content;
 }
 
 .cb1 {
@@ -238,7 +239,7 @@ h4 {
     font-size: 1.20rem;
     font-weight: bold;
     box-shadow: none;
-    min-width: min-content;
+    min-width: 150px;
 }
 
 .lb4 {
