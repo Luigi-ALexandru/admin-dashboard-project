@@ -39,7 +39,41 @@ body { max-width: 100%; overflow-x: hidden; }
 }
 
 .b1 {
-    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dicon {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+}
+
+.b3 {
+    display: flex;
+    align-items: center;
+}
+
+.bhome {
+    padding-left: 10%;
+}
+
+.hicon {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+.b4 {
+    display: flex;
+    align-items: center;
+}
+
+.picon {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
 }
 
 .horizontal-display {
@@ -62,8 +96,7 @@ body { max-width: 100%; overflow-x: hidden; }
 
 .hb3 {
     display: flex;
-    justify-content: flex-start;
-    align-items: last baseline;
+    align-items: center;
 }
 
 .logo-name {
@@ -87,6 +120,7 @@ body { max-width: 100%; overflow-x: hidden; }
     align-items: center;
     justify-content: space-evenly;
 }
+
 button {
     font-size: 18px;
     padding: 5px 10px 5px 10px;
@@ -95,6 +129,35 @@ button {
     color:#fff;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.b5 {
+    display: flex;
+    align-items: center;
+}
+
+.micon {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+.b6,
+.b7,
+.b8,
+.b10,
+.b11,
+.b12 {
+    display: flex;
+    align-items: center;
+}
+
+.hiicon,
+.ticon,
+.cicon {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
 }
 
 button:hover {
